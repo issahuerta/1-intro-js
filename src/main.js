@@ -1,7 +1,7 @@
 
 //Variable
-let name = 'Issa';
-name = 'Paco';
+let firstname = 'Issa';
+firstname = 'Paco';
 
 //Constante
 const lastname = 'Huerta'
@@ -13,4 +13,8 @@ if(condicion){
     console.log(lastname)
 }
 
-console.log('Hola mundo mi nombre es ' + name + ' ' + lastname);
+console.log('Hola mundo mi nombre es ' + firstname + ' ' + lastname);
+
+console.log(`Hola mundo mi nombre es 
+    
+    ${firstname} - ${lastname}`);
