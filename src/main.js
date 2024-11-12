@@ -1,20 +1,12 @@
 
-//Variable
-let firstname = 'Issa';
-firstname = 'Paco';
 
-//Constante
-const lastname = 'Huerta'
+const sayHello = (name = 'Isa', age = 0) => `Hola mundo function mi nombre es ${name} y tengo ${age} años`;
+const add = (a = 25, b = 12) => `El resultado de la suma de ${a} + ${b} es igual a ${a+b}`;
+const add1 = (a = 25, b = 12) => `${a} + ${b} es igual a ${a+b}`;
 
-const condicion = true;
 
-if(condicion){
-    const lastname = 'Ballesteros';
-    console.log(lastname)
-}
 
-console.log('Hola mundo mi nombre es ' + firstname + ' ' + lastname);
+const resul = sayHello('Issa', 25);
+console.log(resul);
 
-console.log(`Hola mundo mi nombre es 
-    
-    ${firstname} - ${lastname}`);
+console.log(add1(25, 12));
